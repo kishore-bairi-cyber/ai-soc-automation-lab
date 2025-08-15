@@ -1,0 +1,3 @@
+
+Summarize this alert: Procdump.exe accessed lsass.exe on WIN-ENDPOINT-001 by DOMAIN\attackeruser.
+What are the risks, evidence, and next actions?

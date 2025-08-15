@@ -1,0 +1,6 @@
+
+DeviceProcessEvents
+| where ActionType == "ProcessAccessed"
+| where TargetProcessName =~ "lsass.exe"
+| where FileName in~ ("procdump.exe", "mimikatz.exe", "taskmgr.exe")
+| project Timestamp, DeviceName, InitiatingProcessAccountName, FileName

@@ -1,0 +1,10 @@
+
+{
+  "alert_name": "Unauthorized LSASS Memory Access via Procdump",
+  "host": "WIN-ENDPOINT-001",
+  "user": "DOMAIN\\attackeruser",
+  "process": "C:\\tools\\procdump.exe",
+  "target_process": "C:\\Windows\\System32\\lsass.exe",
+  "event_type": "process_access",
+  "event_id": "Sysmon EventCode 10"
+}

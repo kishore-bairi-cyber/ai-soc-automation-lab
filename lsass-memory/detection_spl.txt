@@ -1,0 +1,5 @@
+
+index=windows sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational 
+EventCode=10 TargetImage="*\lsass.exe"
+(Image="*\procdump.exe" OR Image="*\mimikatz.exe" OR Image="*\taskmgr.exe")
+| stats count by _time, host, User, Image, TargetImage, SourceProcessGUID
