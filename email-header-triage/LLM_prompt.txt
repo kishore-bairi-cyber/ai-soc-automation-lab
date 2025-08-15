@@ -1,0 +1,8 @@
+Act as an expert email threat analyst.
+Given the below email header:
+<PASTE HEADER HERE>
+Is this email spoofed or phishing?
+What are the suspicious indicators (sender IP, domain, DKIM, SPF, reply-to mismatch)?
+What is the geolocation and threat reputation of the sender IP?
+What are the recommended SOC actions?
+Could this be linked to any known APT or campaign?
