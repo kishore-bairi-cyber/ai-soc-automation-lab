@@ -1,0 +1,9 @@
+Received: from mail.fakebank-alerts.com ([185.219.245.67])
+by mx.google.com with ESMTPS id r13si678732plg.132.2025.08.14.08.32.47
+for <user@company.com>;
+DKIM-Signature: v=1; a=rsa-sha256; d=fakebank-alerts.com; s=selector1;
+h=from:subject:to:date:message-id;
+From: FakeBank Alert Center <support@fakebank-alerts.com>
+Reply-To: support@fakesecure-mail.com
+Subject: [ACTION REQUIRED] Security Alert on Your Account
+To: user@company.com
