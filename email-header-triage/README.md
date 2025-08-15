@@ -14,8 +14,8 @@ This use case focuses on the automated triage of suspicious email headers using 
 - Suggest next actions via LLM-generated summary
 
 ---
+✍️ Author
 
-## 🧪 Sample Email Header (Simulated)
-
-Saved in: `sample_email_header.txt`
-
+Kishore Bairi
+SOC Analyst | DFIR Specialist | Detection Engineer | LLM-SOC Innovator
+GitHub: @kishore-bairi-cyber
