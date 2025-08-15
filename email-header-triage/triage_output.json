@@ -1,0 +1,17 @@
+{
+  "risk": "High",
+  "indicators": {
+    "sender_ip": "185.219.245.67",
+    "from_domain": "fakebank-alerts.com",
+    "reply_to_domain": "fakesecure-mail.com",
+    "spf_dkim_status": "Likely failed/missing"
+  },
+  "geo": "Netherlands",
+  "attribution": "IP belongs to known spam infrastructure (per AbuseIPDB)",
+  "actions": [
+    "Quarantine email",
+    "Block IP/domain in email gateway",
+    "Check if any users clicked the link",
+    "Run IOC scan on endpoint"
+  ]
+}
